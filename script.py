@@ -1,13 +1,9 @@
 """
 
-En este script vamos a tratar de formar todas las combinaciones
-de un string, atendiendo a permutaciones y sin supresión de carácteres.
+In this script let's try to form all possible combinations with a chars
+in string, for this problem I use the cartesian product with list in python.
 
 """
-
-# v1.0
-# La solución de la cantidad de combinaciones (con permutación) aparentemente sería
-# n!/(n - k)! Siendo "n" el número de letras y "k" el número de iteración.
 
 def cartesian_product(string: str):
     string_list = [i for i in string]
